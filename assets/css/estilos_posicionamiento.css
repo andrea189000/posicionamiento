@@ -1,0 +1,305 @@
+.envoltorio {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.amarillo {
+    width: 400px;
+    height: 250px;
+    padding: 0px!important 
+}
+
+.MargenBanderas {
+    width: 400px;
+    height: 300px;
+    margin: 5%;
+    border: 0.5px solid black
+
+}
+.colombia1 {
+    background-color: yellow;
+    width: 400px;
+    height: 140px;
+}
+
+.colombia2 {
+    background-color: blue;
+    width: 400px;
+    height: 80px;
+}
+.colombia3 {
+    background-color: red;
+    width: 400px;
+    height: 80px;
+}
+
+.mexico1 {
+    background-color: green;
+    display: inline-block;
+    width: 129px;
+    height: 300px;
+}
+.imagMex {
+    position: relative;
+    top: 280px;
+    left: 240px;
+    margin: 5px;
+    width: 50px;
+   
+}
+
+.mexico2{
+    background-color: white;
+    display: inline-block;
+    width: 130px;
+    height: 300px;
+}
+
+.mexico3 {
+    background-color: red;
+    display: inline-block;
+    width: 133px;
+    height: 300px;
+}
+
+.imagEsp {
+    position: relative;
+    top: 250px;
+    left: 99px;
+    margin: 5px;
+    width: 50px;
+}
+.españa1 {
+    background-color: red;
+    width: 400px;
+    height: 100px;
+}
+.españa2 {
+    background-color: yellow;
+    width: 400px;
+    height: 100px;
+}
+
+.españa3 {
+    background-color: red;
+    width: 400px;
+    height: 100px;
+}
+
+.japon1 {
+    display: inline-block;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(241, 241, 241, 0.911)
+ 
+}
+
+.circulo2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 100%;
+    margin: 13%;
+    left: 16%;
+    top: 20px;
+    position: relative;
+}
+
+.islandia1 {
+    background-color: blue;
+    width: 400px;
+    height: 300px;
+}
+
+.islandia2 {
+    background-color: white;
+    width: 60px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+    left: 100px;
+    display: block !important
+}
+
+.islandia3 {
+    width: 500px;
+    height: 60px;
+    background-color: white;
+    position: relative;
+    top: -480px;
+    left: 0px;
+}
+
+.islandia4 {
+    background-color: red;
+    width: 40px;
+    height: 300px;
+    position: relative;
+    top: -660px;
+    left: 110px;
+    display: block !important
+}
+
+.islandia5 {
+    background-color: red;
+    width: 400px;
+    height: 40px;
+    position: relative;
+    top: -830px;
+    left: 0px;
+    display: block !important
+}
+
+.chile1 {
+    background-color: blue;
+    width: 170px;
+    height: 150px;
+    display: block !important
+}
+
+.chile2 {
+    background-color: red;
+    width: 400px;
+    height: 50%;
+}
+
+.imagBra {
+    position:relative;
+    top: 224px;
+    left: 300px;
+    margin: 5px;
+    width: 50px;
+}
+
+.brasil1 {
+    background-color: green;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+}
+
+.brasil2 {
+    width: 210px;
+    height: 210px;
+    background-color: rgb(255, 212, 95);
+    -moz-transform: rotate(45deg) skew(15deg, 15deg);
+    transform: rotate(135deg)skew(15deg, 15deg);
+    position: relative;
+    top: -260px;
+    left: 95px;
+    display: block!important
+}
+
+
+.brasil3 {
+    background-color: rgb(17, 5, 184);
+    border-radius: 100%;
+    height: 140px;
+    width: 140px;
+    margin: 10%;
+    position: relative;
+    top: -479px;
+    left: 89px;
+    display: block!important
+}
+
+.Pakistan1 {
+    background-color: green;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+}
+
+.Pakistan2 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    top: -254px;
+    left: 199px;
+    transform: rotate(130deg);
+    box-shadow: 30px 10px 0 #ffffff;
+    -moz-box-shadow: 30px 10px ;
+}
+
+#estrella {
+    margin: 10px;
+    border-bottom: 130px solid white;
+    border-left: 50px  solid transparent;
+    border-right: 50px solid transparent;
+    width: 1px;
+    height: 1px;
+}
+#estrella::before{
+    content:"";
+    display: block;
+    width: 1px;
+    height: 1px;
+    border-top: 45px solid white;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    position: relative;
+    top: 43px;
+    left: -60px;
+}
+#estrella::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 1px;
+    border-bottom: 40px solid blue;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    position: relative;
+    top: 44px;
+    left: -75px;
+}
+#estrella {
+    position: relative;
+    top: -291px;
+    left: 25px;
+
+}
+
+#estrella2 {
+    margin: 10px;
+    border-bottom: 130px solid white;
+    border-left: 50px  solid transparent;
+    border-right: 50px solid transparent;
+    width: 1px;
+    height: 1px;
+}
+#estrella2::before{
+    content:"";
+    display: block;
+    width: 1px;
+    height: 1px;
+    border-top: 45px solid white;
+    border-left: 60px solid transparent;
+    border-right:60px solid transparent;
+    position:relative;
+    top: 45px;
+    left: -60px;
+}
+#estrella2::after {
+    content:"";
+    display: block;
+    width: 1px;
+    height: 1px;
+    border-bottom: 40px solid green;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    position: relative;
+    top: 46px;
+    left: -75px;
+}
+#estrella2 {
+    position:relative;
+    top: -436px;
+    left: 244px;
+
+}
